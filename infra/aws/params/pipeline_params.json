@@ -1,0 +1,80 @@
+[
+    {
+        "ParameterKey" : "EnvironmentName",
+        "ParameterValue" : "{{ EnvironmentName }}"
+    },
+    {
+        "ParameterKey" : "ProjectName",
+        "ParameterValue" : "{{ ProjectName }}"
+    },
+    {
+        "ParameterKey" : "SystemNumber",
+        "ParameterValue" : "{{ SystemNumber }}"
+    },
+    {
+        "ParameterKey" : "AdminEmail",
+        "ParameterValue" : "{{ AdminEmail }}"
+    },
+    {
+        "ParameterKey" : "Auth0Domain",
+        "ParameterValue" : "{{ Auth0Domain }}"
+    },
+    {
+        "ParameterKey" : "CodeBuildLocation",
+        "ParameterValue" : "{{ HTTPCloneUrl }}"
+    },
+    {
+        "ParameterKey" : "BuildArtifactPath",
+        "ParameterValue" : "{{ BuildArtifactPath }}"
+    },
+    {
+        "ParameterKey" : "BuildArtifactZipName",
+        "ParameterValue" : "{{ BuildArtifactZipName }}"
+    },
+    {
+        "ParameterKey" : "CodeBuildEnvType",
+        "ParameterValue" : "{{ CodeBuildEnvType }}"
+    },
+    {
+        "ParameterKey" : "CodeBuildComputeType",
+        "ParameterValue" : "{{ CodeBuildComputeType }}"
+    },
+    {
+        "ParameterKey" : "CodeBuildImage",
+        "ParameterValue" : "{{ CodeBuildImage }}"
+    },
+    {
+        "ParameterKey" : "CodeBuildSpecFile",
+        "ParameterValue" : "{{ CodeBuildSpecFile }}"
+    },
+    {
+        "ParameterKey" : "CodeBuildTimeout",
+        "ParameterValue" : "{{ CodeBuildTimeout }}"
+    },
+    {
+        "ParameterKey" : "CodeBuildSourceType",
+        "ParameterValue" : "{{ CodeBuildSourceType }}"
+    },
+    {
+        "ParameterKey" : "RepoName",
+        "ParameterValue" : "{{ RepoName }}"
+    },
+    {
+        "ParameterKey" : "RepoBranch",
+        "ParameterValue" : "{{ RepoBranch }}"
+    },
+    {
+        "ParameterKey" : "BucketVersionStatus",
+        "ParameterValue" : "{{ BucketVersionStatus }}"
+    },
+    {
+        "ParameterKey" : "KMSKeyARN",
+        "ParameterValue" : "{{ KMSKeyARN }}"
+    },
+    {
+        "ParameterKey" : "HostedDomain",
+        "ParameterValue" : "{{ HostedDomain }}"
+    }
+]
+
+
