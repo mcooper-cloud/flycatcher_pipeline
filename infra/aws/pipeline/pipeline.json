@@ -589,7 +589,7 @@
                         { "Ref":"ProjectName"},
                         { "Ref":"EnvironmentName"},
                         { "Ref":"SystemNumber"},
-                        "GithubConnection"
+                        "GHC"
                     ]]
                 },
                 "ProviderType": "GitHub",
