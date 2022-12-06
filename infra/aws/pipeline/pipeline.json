@@ -898,6 +898,7 @@
         },
         "Auth0AppClientIDResourcePolicy": {
             "Type": "AWS::SecretsManager::ResourcePolicy",
+            "DependsOn" : "CodeBuildIAMRole",
             "Properties": {
                 "SecretId": {"Ref": "Auth0AppClientID"},
                 "ResourcePolicy": {
@@ -917,6 +918,7 @@
         },
         "Auth0AppClientSecretResourcePolicy": {
             "Type": "AWS::SecretsManager::ResourcePolicy",
+            "DependsOn" : "CodeBuildIAMRole",
             "Properties": {
                 "SecretId": {"Ref": "Auth0AppClientSecret"},
                 "ResourcePolicy": {
@@ -990,6 +992,7 @@
         },
         "Auth0MGMTClientIDResourcePolicy": {
             "Type": "AWS::SecretsManager::ResourcePolicy",
+            "DependsOn" : "CodeBuildIAMRole",
             "Properties": {
                 "SecretId": {"Ref": "Auth0MGMTClientID"},
                 "ResourcePolicy": {
@@ -1009,6 +1012,7 @@
         },
         "Auth0MGMTClientSecretResourcePolicy": {
             "Type": "AWS::SecretsManager::ResourcePolicy",
+            "DependsOn" : "CodeBuildIAMRole",
             "Properties": {
                 "SecretId": {"Ref": "Auth0MGMTClientSecret"},
                 "ResourcePolicy": {
